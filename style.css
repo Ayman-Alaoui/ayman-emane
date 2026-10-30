@@ -1,8 +1,29 @@
 .main-title {
-  font-family: 'Poppins', sans-serif;
-  color: #2c3e50;
-  font-size: 3rem;
-  text-align: center;
-  margin-top: 20vh;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
